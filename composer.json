@@ -1,0 +1,29 @@
+{
+    "name": "cebert/contactoespanol",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [
+        {
+            "name": "Cynthia Ebert",
+            "role": "Developer"
+        }
+    ],
+    "version": "1.0.0",
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cebert\\Contactoespanol\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cebert\\Contactoespanol\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "contactoespanol": "self.version",
+        "typo3-ter/contactoespanol": "self.version"
+    }
+}

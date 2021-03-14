@@ -1,0 +1,17 @@
+lib.metanav = HMENU
+lib.metanav {
+    wrap = <ul class="metanav">|</ul>
+
+    special = directory
+    special.value = 11
+
+    1 = TMENU
+    1 {
+        NO = 1
+        NO {
+            allWrap = <li>|</li>
+            stdWrap.htmlSpecialChars = 1
+            ATagTitle.field = description // subtitle // title
+        }
+    }
+}

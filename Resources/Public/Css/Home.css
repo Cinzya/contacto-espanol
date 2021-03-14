@@ -1,0 +1,251 @@
+/* Homepages specific settings */
+
+/* Header */
+@media (max-width: 1810px){
+    .b-h-container .frame {
+        width: 39%;
+    }
+
+    h1 {
+        display: inline;
+    }
+}
+
+@media (max-width: 1000px){
+    .b-h-container .frame {
+        top: 60%;
+        width: 85%;
+    }
+}
+
+/* Unsere Leistungen */
+#leistungen .container {
+    max-width: 95.250rem;
+    align-items: stretch;
+}
+
+#leistungen .section {
+    display: flex;
+    height: 100%;
+}
+
+#leistungen .item {
+    text-align: center;
+    padding: 2rem;
+    width: 13.688rem;
+    /*border-radius: 1.875rem;
+    margin-right: -15px;
+    margin-left: -15px;*/
+}
+
+#leistungen .item p {
+    font-size: 1rem;
+}
+
+@media(min-width: 1365px) {
+    #leistungen .item{
+        height: 23rem;
+    }
+}
+
+/* Tablet */
+@media(max-width: 1365px)  {
+    #leistungen .container .section:nth-child(2){
+        margin-top: 3rem;
+    }
+    #leistungen .item {
+        width: 19rem;
+    }
+}
+
+/* Handy */
+@media(max-width: 870px) {
+    #leistungen .container .section, #leistungen .item {
+        justify-content: center;
+    }
+    #leistungen .item {
+        margin-top: 3rem;
+    }
+
+    #leistungen .item:first-child {
+        margin-top: 0rem;
+    }
+}
+
+
+
+
+#leistungen .image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 4.375rem;
+    height: 4.063rem;*/
+}
+
+
+/* Über mich */
+#ubermich .item:nth-child(2) {
+    max-width: 43.750rem;
+}
+
+@media (max-width: 700px) {
+    #ubermich .container {
+        flex-wrap: wrap;
+    }
+}
+
+#ubermich img {
+    border-radius: 50%;
+}
+
+
+/* Kurse */
+#kurse {
+    background-image: url("/fileadmin/user_upload/Graphics/02A12FB7.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+
+/*Referenzen
+
+#referenzen .container .col-sm:first-child {
+    margin-left: -4.688rem;
+}*/
+/*6.563rem*/
+#referenzen .container {
+    align-content: center;
+    flex-wrap: nowrap;
+
+}
+
+@media (max-width: 1190px) {
+    #referenzen .container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+
+#referenzen .item:first-child {
+    max-width: 35.500rem;
+}
+
+#referenzen .item:nth-child(2) {
+    min-width: 38.750rem;
+}
+
+#quotetation-mark {
+    font-size: 10rem;
+
+    font-family: 'Segoe Print';
+    font-weight: bold;
+   /*margin-left: -20px;
+    margin-top: 4.125rem;*/
+}
+
+
+
+
+/* Kontakt */
+
+#kontaktformular-18 {
+    text-align: start;
+    width: 48rem;
+    height: 30rem;
+    padding: 3rem 3rem 0 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.help-block {
+    visibility: hidden;
+}
+
+.control-label {
+    display: inline-block;
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    color: #CEC9C9;
+}
+
+.imput {
+
+}
+
+.form-control {
+    font-size: 1.313rem;
+    border: none;
+    border-bottom: 2px solid #D1CCCC;
+}
+
+#kontaktformular-18 input {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#kontaktformular-18 .form-group{
+    margin-bottom: 2.000rem;
+
+}
+
+#kontaktformular-18 .form-group:nth-child(6) {
+    padding-left: 1.875rem;
+    padding-top: 0.313rem;
+    margin-left: 2.313rem;
+}
+
+#kontaktformular-18 .form-group:nth-child(7) {
+    /*margin-top: 4.688rem;*/
+    margin-bottom: 0;
+    align-self: end;
+    margin-left: 2.375rem;
+}
+
+
+#kontaktformular-18 .form-group:nth-child(7) .input #kontaktformular-18-textarea-1 {
+    height: 17.563rem;
+    width: 27.313rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+}
+#kontaktformular-18 .form-group:nth-child(7) .control-label {
+    padding-left: 2rem
+}
+
+#kontaktformular-18 button {
+    background-color: #414141;
+    color: white;
+    text-transform: uppercase;
+    height: 60px;
+    width: 29.375rem;
+    margin: 0;
+    padding: 0;
+}
+
+#kontaktformular-18 .form-group:nth-child(7) .form-control {
+    border: none;
+    border-left: 1px solid black;
+}
+
+#kontaktformular-18 .actions {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#c18 {
+    position: relative;
+}
+
+
+#kontaktformular-18 textarea {
+    resize: none;
+}
+

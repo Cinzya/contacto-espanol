@@ -1,0 +1,23 @@
+lib.mainnav = HMENU
+lib.mainnav {
+    wrap = <ol class="navbar-nav">|</ol>
+
+    1 = TMENU
+    1 {
+        expAll = 1
+        
+        NO = 1
+        NO {
+            wrapItemAndSub = <li class="nav-item">|</li>
+            stdWrap.htmlSpecialCars = 1
+            ATagTitle.field = description // subtitle // title
+        }
+        CUR = 1
+        CUR < .NO
+        CUR.allWrap = <li class="nav-item active">|</li>
+    }
+
+    2 < .1
+    2.wrap = <ol class="sub-menu">|</ol>
+}
+

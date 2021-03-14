@@ -1,0 +1,11 @@
+.kontakt {
+    flex-direction: column;
+}
+
+a.button {
+    width: auto;
+}
+
+#fragen .item {
+    width: 50%;
+}

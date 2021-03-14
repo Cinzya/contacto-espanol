@@ -1,0 +1,27 @@
+TCEFORM.tt_content {
+    date.disabled = 1
+
+    header_layout {
+        altLabels {
+            0 = Standard
+            1 = h1 - Seitenüberschrift
+            2 = h2 - Themenüberschrift
+            3 = h3 - 3. Unterüberschrift
+            4 = h4 - 4. Unterüberschrift
+            5 = h5 - 5. Unterüberschrift
+        }
+    }
+
+    frame_class.addItems {
+        box-shadow = Schatten
+    }
+    frame_class.keepItems = default, none, box-shadow
+}
+
+TCEFORM.tx_news_domain_model_news {
+    istopnews.label {
+        default = Important News
+        de = Wichtige Nachricht
+        es = Noticia importante
+    }
+}

@@ -1,0 +1,11 @@
+temp.bannerjpg = IMG_RESOURCE
+temp.bannerjpg {
+    file {
+        import.data = levelmedia:-1, slide
+        treatIdAsReference = 1
+        import.listNum = rand
+    }
+}
+
+page.headerData.23435545 < temp.bannerjpg
+page.headerData.23435545.stdWrap.wrap = <style>.b-h-container { background: url(|) center no-repeat;}</style>

@@ -1,0 +1,28 @@
+plugin.tx_news {
+    view {
+        templateRootPaths.2 = EXT:contactoespanol/Resources/Private/News/Templates/
+        partialRootPaths.2 = EXT:contactoespanol/Resources/Private/News/Partials/
+    }
+
+    # Datumsformat verändert
+    _LOCAL_LANG {
+        default {
+            dateFormat = %d. %B %Y
+        }
+        de {
+            dateFormat = %d. %B %Y
+        }
+    }
+
+    settings {
+        # Wenn kein Bild vorhanden = kein Bild anzeigen
+        # displayDummyIfNoMedia = 0
+        list.media.dummyImage = /fileadmin/user_upload/Graphics/Logo_Globus_Contacto_Espanol.svg
+
+        # Bildgröße in der Listenansicht
+        list.media.image.maxWidth = 360c
+        list.media.image.maxHeight = 280
+
+        detail.errorHandling = redirectToPage,5
+    }
+}
