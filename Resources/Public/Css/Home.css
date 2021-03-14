@@ -32,10 +32,14 @@
 #leistungen .item {
     text-align: center;
     padding: 2rem;
-    width: 13.688rem;
+    width: 19rem;
     /*border-radius: 1.875rem;
     margin-right: -15px;
     margin-left: -15px;*/
+}
+
+#leistungen .container .section:nth-child(2){
+    margin-top: 3rem;
 }
 
 #leistungen .item p {
@@ -43,19 +47,14 @@
 }
 
 @media(min-width: 1365px) {
-    #leistungen .item{
+    /* #leistungen .item{
         height: 23rem;
-    }
+    } */
 }
 
 /* Tablet */
 @media(max-width: 1365px)  {
-    #leistungen .container .section:nth-child(2){
-        margin-top: 3rem;
-    }
-    #leistungen .item {
-        width: 19rem;
-    }
+
 }
 
 /* Handy */
